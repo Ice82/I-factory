@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^groupon$ group.php [L]
+RewriteRule ^groupon/([\w\s_-]+)$ group.php?citta=$1 [L]
+
+RewriteRule ^clienti.html$ lavori.php [L]

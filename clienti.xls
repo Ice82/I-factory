@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="42"/>
+   <Column ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="2"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">tipologiaID</Data></Cell>
+    <Cell><Data ss:Type="String">titolo</Data></Cell>
+    <Cell><Data ss:Type="String">data</Data></Cell>
+    <Cell><Data ss:Type="String">periodo</Data></Cell>
+    <Cell><Data ss:Type="String">luogo</Data></Cell>
+    <Cell><Data ss:Type="String">descrizione</Data></Cell>
+    <Cell><Data ss:Type="String">immagine</Data></Cell>
+    <Cell><Data ss:Type="String">ordine</Data></Cell>
+    <Cell><Data ss:Type="String">abilitato</Data></Cell>
+    <Cell><Data ss:Type="String">inHome</Data></Cell>
+    <Cell><Data ss:Type="String">permalink</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Design Gennaro Girone</Data></Cell>
+    <Cell><Data ss:Type="String">2009-05-07</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.designgennarogirone.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Realizzazione grafica del sito web, realizzazione del back-office per l'inserimento prodotti&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">design-gennaro-girone</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Dardabere Cafè</Data></Cell>
+    <Cell><Data ss:Type="String">2009-04-24</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.dardabere.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Ideazione layout web e logo dell'attività commerciale&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">dardabere-caf</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Showroom Snaidero</Data></Cell>
+    <Cell><Data ss:Type="String">2009-03-29</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.showroomsnaidero.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Realizzazione layout web e costruzione pagine&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">showroom-snaidero</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">L'isola St Barth</Data></Cell>
+    <Cell><Data ss:Type="String">2009-01-10</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Costruzione sito web con tecnologia Flash</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.lisolastbarth.com/&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">lisola-st-barth</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Appartamenti Yalta</Data></Cell>
+    <Cell><Data ss:Type="String">2009-02-06</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.appartamentiyalta.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Costruzione del portale web, layout grafico, pannello di controllo per la gestione degli appartamenti&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">appartamenti-yalta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Carrieri</Data></Cell>
+    <Cell><Data ss:Type="String">2009-01-31</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.carrieri.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Costruzione layout web con CSS e XHTML. Costruzione di un pannello di controllo per la gestione dei contenuti del sito.&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">carrieri</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Residenza Protetta Adriatica</Data></Cell>
+    <Cell><Data ss:Type="String">2008-10-10</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.residenzaprotettaadriatica.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Costruzione web site per la residenza protetta per anziani sita in Bari.&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">residenza-protetta-adriatica</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Centro Diurno L'Abbraccio</Data></Cell>
+    <Cell><Data ss:Type="String">2009-10-09</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.centrodiurnolabbraccio.it/</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">centro-diurno-labbraccio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Le Giare Ristorante</Data></Cell>
+    <Cell><Data ss:Type="String">2009-05-20</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.legiareristorante.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Layout grafico, pannello di controllo per l\'inserimento dei menù e della cantina vini&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">le-giare-ristorante</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Scenari d'Italia - Sistema prenotazioni</Data></Cell>
+    <Cell><Data ss:Type="String">2010-03-15</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.scenariditalia.it/agenze</Data></Cell>
+    <Cell><Data ss:Type="String">Creazione di un sistema di prenotazioni per la gestione di alberghi da parte di un tour operator.&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scenari-ditalia-sistema-prenotazioni</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Appartamenti Kiev</Data></Cell>
+    <Cell><Data ss:Type="String">2010-11-15</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.appartamentikiev.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Affitto appartamenti a Kiev&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">appartamenti-kiev</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Formik.it</Data></Cell>
+    <Cell><Data ss:Type="String">2010-09-09</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.formik.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Costruzione sito istituzionale&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">formik.it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Svim &amp; Sviluppo s.r.l.</Data></Cell>
+    <Cell><Data ss:Type="String">2008-07-15</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.svim-sviluppo.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Progettazione grafica e montaggio&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">svim-sviluppo-s.r.l</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Scenari d'Italia - Tour Operator</Data></Cell>
+    <Cell><Data ss:Type="String">2010-05-10</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.scenariditalia.it</Data></Cell>
+    <Cell><Data ss:Type="String">Portale per la promozione di alberghi gestiti dal tour operator&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">scenari-ditalia-tour-operator</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Pantaleo &amp; Brattelli</Data></Cell>
+    <Cell><Data ss:Type="String">2010-12-01</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.pantaleoebrattelli.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Studio Legale Pantale &amp;amp; Brattelli.it&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">pantaleo-brattelli</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Fratelli Bernard - Lavanderia Industriale</Data></Cell>
+    <Cell><Data ss:Type="String">2011-02-04</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.fratellibernard.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Restyling sito web&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">fratelli-bernard-lavanderia-industriale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Siriotex :: Benessere del corpo</Data></Cell>
+    <Cell><Data ss:Type="String">2011-01-31</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.siriotex.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Layout grafico, pannello di controllo per gestione dinamica&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">siriotex-benessere-del-corpo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MyTeaCup Style editing</Data></Cell>
+    <Cell><Data ss:Type="String">2011-02-17</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">http://www.myteacup.it/</Data></Cell>
+    <Cell><Data ss:Type="String">Layout grafico, e-commerce, contenuti dinamici&lt;br&gt;</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">myteacup-style-editing</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

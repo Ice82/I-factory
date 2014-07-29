@@ -1,0 +1,95 @@
+/*
+Theme Name: I-factory
+
+Version: 1.0
+Author: Felice Breglia
+Site: http://www.felicebreglia.it
+
+Copyright: 2013 Felice Breglia
+*/
+
+/* Fonts */
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans:400');
+/* General Settings */
+body { background: #EEE; font-family: 'Noto Sans',sans-serif; font-weight: 400; }
+#wrapper { width:100%; }
+
+a, input, select, textarea { outline: none; }
+a { -webkit-transition:color 0.3s; -moz-transition:color 0.3s; -o-transition:color 0.3s; transition:color 0.3s; }
+.clr { clear: both; }
+.left { float: left; }
+.right { float: right; }
+.read-more, .back { font-size: 0.8em; color: #0073B7; display: inline-block; text-decoration: none; }
+.read-more:hover, .back:hover { color: #A3CE53; }
+.blue { color: #0073B7; }
+
+.social-nav li a { background-color: #58595B; -webkit-transition:background-color 0.3s; -moz-transition:background-color 0.3s; -o-transition:background-color 0.3s; transition:background-color 0.3s; }
+.social-nav li a.social-facebook:hover { background-color: #284078; }
+.social-nav li a.social-twitter:hover { background-color: #00C6FF; }
+.social-nav li a.social-googleplus:hover { background-color: #E64529; }
+.social-nav li a.social-youtube:hover { background-color: #DD1E1E; }
+
+/* Header */
+header { background: #E8E8E8; }
+header #brand { display: block; margin: 10px 0; }
+header #brand a h1, header #brand a h2 { display: none; }
+header #main-nav ul { list-style: none; }
+header #main-nav ul li a { color: #0073B7; text-decoration: none; }
+header #main-nav ul li a.sel, 
+header #main-nav ul li a:hover { color: #A3CE53; }
+
+/* Sidebar */
+#sidebar .sidebar-info { list-style: none; font-size: 12px; line-height: 18px; color: #A0A0A0; }
+#sidebar .sidebar-info li { padding: 5px 0 0 30px; margin-bottom: 5px; background-position: 0 8px; background-repeat: no-repeat; }
+#sidebar .sidebar-info li.sidebar-info-whr { background-image: url('../images/ico_pin.png'); }
+#sidebar .sidebar-info li.sidebar-info-cnt { background-image: url('../images/ico_tel.png'); }
+
+/* Pagina */
+#slider { position: relative; width: 100%; float: right; }
+#slider .sliderContent { position: absolute; width: 100%; border: 1px solid #DDD; overflow: hidden; }
+#slider .sliderContent .item { position: absolute; width: 100%; }
+#slider .sliderContent .item a { display: block; }
+#slider .sliderContent .item a img { position: absolute; top: 0; left: 0; width: 100%; z-index: 2; }
+#slider .sliderArrows { position: absolute; top: 135px; left: 1px; z-index: 5; width: 100%;}
+#slider .sliderArrows .prev { width: 50px; height: 50px; background: url('../images/prev.png') 0 0 no-repeat; text-indent: -10000px; float: left; }
+#slider .sliderArrows .next { width: 50px; height: 50px; background: url('../images/next.png') 0 0 no-repeat; text-indent: -10000px; float: right; }
+#slider .sliderBullets { position: absolute; width: 100%; text-align:center }
+#slider .sliderBullets a { display:inline-block; height:17px; width:17px; margin:0 3px; text-indent:-100000px; color:#000; background-image:url("../images/bullets.png"); background-position:0 0; }
+#slider .sliderBullets a:hover { background-position: 0 -17px }
+#slider .sliderBullets a.active { background-position: 0 -34px }
+
+ul.flexy-gird { list-style: none; }
+ul.flexy-gird li { float: left; width: 100%; display: block; margin-bottom: 1%; overflow: hidden; }
+ul.flexy-gird-one li { float: none; }
+ul.flexy-gird-two, ul.flexy-gird-three { width: 100%; }
+ul.flexy-gird-three li img { display: block; width: 100%; max-width: 150px; margin: 0 auto 10px;} 
+
+.flexy-gird-container { background-color: #F5F4F4; border: 1px solid #DDD; padding: 10px; }
+
+.more-news { list-style: none; }
+.more-news li { display: block!important; float: none!important; width: 100%!important; font-size: 0.8em; line-height: 2em; border-bottom: 1px dotted #DDD; margin: 0!important;}
+.more-news li a { display: block; color: #333; text-decoration: none; }
+.more-news li a:hover { color: #A3CE53; } 
+
+/* Footer */
+footer .footer-top { border: 1px dashed #DDD; border-left: none; border-right: none; background: #FFF; height: 50px; overflow: hidden; }
+footer .logo-list { list-style: none; }
+footer .logo-list li { float: left; margin: 0 10px 0 0; line-height: 50px; color: #78797B; font-size: 0.8em; }
+footer .logo-list li a { display: table-cell; height: 50px; vertical-align: middle; text-decoration: none; }
+footer .logo-list li a img { display: block; max-width: 40px; max-width: 120px; opacity: 1; -webkit-transition:opacity 0.3s; -moz-transition:opacity 0.3s; -o-transition:opacity 0.3s; transition:opacity 0.3s; }
+footer .logo-list li a:hover img { opacity: 0.5;}
+footer .footer-bottom { color: #78797B; text-align: center; text-shadow: 0 1px 0 #FFF; line-height: 1em; font-size: 0.7em; } 
+footer .footer-bottom a { color: #58595B; text-decoration: none; }
+footer .footer-bottom a:hover { color: #0073B7; }
+footer .social-nav { display: block; width: 100%; height: 10px; list-style: none; }
+footer .social-nav li { float: left; width: 50%; border: 1px dashed #DDD; border-left: none; border-right: none; margin-bottom: 10px; }
+footer .social-nav li a { display: block; width: 50%; margin: 5% 25%; border-radius: 50%; background-color: #58595B; }
+footer .social-nav li img { display: block; width: 100%; }
+
+/* Formattazione testi */
+h1 { color: #0073B7; font-size: 1em; margin-bottom: 20px; }
+h1 a { color: #0073B7; text-decoration: none; }
+h1 a:hover { color: #A3CE53; }
+h2 { color: #0073B7; font-size: 0.9em; margin: 10px 0 5px; }
+p { color: #333; font-size: 0.8em; line-height: 1.4em; text-align: justify; }
+p img { width: 98%; padding: 2px; border: 1px solid #DDD; margin: 0 2% 0 0; }

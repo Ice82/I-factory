@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^admin$ tool.php [L,QSA]
+
+RewriteRule ^landing.html$ lnd.php [L]

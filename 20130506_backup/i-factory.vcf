@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:di Nicola Claudio Cellamare;I-factory
+FN:I-factory di Nicola Claudio Cellamare
+ORG:I-factory
+TEL;WORK;VOICE:+39 08050119901
+TEL;CELL;VOICE:+39 3497971270
+TEL;WORK;FAX:+39 08050119901
+ADR;WORK:;;Via Alberotanza, 5;Bari;BA;70125;Italia
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:Via Alberotanza, 5=0D=0ABari, BA 70125=0D=0AItalia
+URL;WORK:http://www.i-factory.biz/
+EMAIL;PREF;INTERNET:info@i-factory.biz
+REV:20080825T233620Z
+END:VCARD

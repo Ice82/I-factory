@@ -1,0 +1,44 @@
+RewriteEngine on
+RewriteBase /
+
+#ERRORI - START
+#ErrorDocument 403 /error.html
+#ErrorDocument 404 /error.html
+#ErrorDocument 500 /error.html
+#RewriteRule ^error.html$ er.php [L]
+#ERRORI - END
+
+RewriteRule ^admin$ tool.php [L,QSA]
+
+#PAGINE
+RewriteRule ^home.html$ index.php [L]
+RewriteRule ^clienti.html$ cli.php [L]
+RewriteRule ^profilo.html$ prf.php [L]
+RewriteRule ^identity.html$ int.php [L]
+RewriteRule ^contatti.html$ cnt.php [L]
+RewriteRule ^servizi.html$ svz.php [L]
+RewriteRule ^blog.html$ news.php [L]
+RewriteRule ^blog/pagina-([0-9]+).html$ news.php?pagina=$1 [L]
+RewriteRule ^blog/([\w\s_-]+).html$ news_item.php?id=$1 [L]
+
+#CLIENTI
+RewriteRule ^clienti/myteacup.html$ clienti/mtc.php [L]
+RewriteRule ^clienti/diamantenergy.html$ clienti/de.php [L]
+RewriteRule ^clienti/iguarantee.html$ clienti/ig.php [L]
+RewriteRule ^clienti/groupon.html$ clienti/gron.php [L]
+RewriteRule ^clienti/abbraccio.html$ clienti/abb.php [L]
+RewriteRule ^clienti/fratelli-bernard.html$ clienti/flli_bern.php [L]
+RewriteRule ^clienti/pantaleo-brattelli.html$ clienti/pantbrat.php [L]
+RewriteRule ^clienti/melica.html$ clienti/leg_mel.php [L]
+RewriteRule ^clienti/hotelrondo.html$ clienti/hotel.php [L]
+RewriteRule ^clienti/chefsrus.html$ clienti/crs.php [L]
+RewriteRule ^clienti/epstudiodesign.html$ clienti/epsd.php [L]
+RewriteRule ^clienti/lauascezze.html$ clienti/bb.php [L]
+RewriteRule ^clienti/carrieri.html$ clienti/carr.php [L]
+RewriteRule ^clienti/taxinsieme.html$ clienti/taxins.php [L]
+RewriteRule ^clienti/movingcenter.html$ clienti/autoclub.php [L]
+RewriteRule ^clienti/legiare.html$ clienti/ristogiare.php [L]
+RewriteRule ^clienti/supermercato-frhome.html$ clienti/frh.php [L]
+RewriteRule ^clienti/dardabere.html$ clienti/cafe.php [L]
+RewriteRule ^clienti/plantarisumisura.html$ clienti/pmisura.php [L]
+RewriteRule ^clienti/thinksocial.html$ clienti/thinks.php [L]

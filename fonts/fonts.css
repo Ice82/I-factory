@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Calibri;
+	src: url("calibri.eot")
+}
+@font-face {
+	font-family: Calibri;
+	src: url("calibri.ttf")
+}

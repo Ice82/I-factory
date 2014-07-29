@@ -1,0 +1,43 @@
+/* Regole Template */
+* { margin:0; padding:0; font-family:Georgia, 'Times New Roman', Times, serif }
+html, body { height:100%; }
+
+/* Utility */
+a { outline:none }
+.clr { clear:both }
+
+/* Blocchi Pagina */
+#wrapper { min-height:100%; height:auto !important; height:100%; width:100%; margin:0 auto -48px; }
+#wrapper .pushfooter{ height:48px; /* altezza footer */ clear:both; }
+#header { width:100%; min-width: 960px; height:61px; }
+#page { width: 960px; margin: 0 auto; }
+#footer { width:100%; min-width: 960px; height:48px; overflow:hidden }
+#bg { position: fixed; top: 0; left: 0; z-index: -1; overflow: hidden; }
+
+/* Grafica */
+#header { border-bottom: 2px solid #FFF; background-color: #000; }
+#header h1 { width: 960px; height: 61px; margin: 0 auto; background: url('../images/lnd/logo.png') 0 11px no-repeat; }
+#header h1 a { display: block; width: 206px; height: 61px; text-indent: -10000px; }
+
+blockquote { height: 115px; margin-top: 30px; text-align: center; font-size: 22px; line-height: 32px; font-style: italic; color: #FFF; text-shadow: 1px 2px 3px #000; }
+blockquote span { font-size: 14px; float: right; margin-right: 200px; }
+
+.utente { float: left; margin-left: 120px; background: url('../images/lnd/box_utenti.png') 0 0 no-repeat; }  
+.produttore { float: right; margin-right: 120px; background: url('../images/lnd/box_produttori.png') 0 0 no-repeat; }  
+.box { position: relative; height: 330px; width: 350px; margin-bottom: 20px; box-shadow: 1px 1px 2px #000; }
+.box h2 { position: absolute; top: 108px; left: 0; width: 350px; height: 36px; opacity:0; filter:alpha(opacity=0); }
+.box p { position: absolute; top: 158px; left: 0; width: 350px; text-align: center; font-size: 13px; line-height: 18px; color: #000; }
+.box form { position: absolute; top: 240px; left: 0; width: 350px; text-align: center; font-size: 12px; line-height: 18px; color: #000; }
+.box form .txt { width: 288px; height: 20px; margin-top: 10px; padding: 0 10px; border: none; border-bottom: 1px solid #999; background: none; line-height: 20px; font-size: 14px; color: #222; font-style: italic; text-align: center; outline: none; }
+.box form .sub { display: block; padding: 5px 5px; margin: 10px 21px 0 0; float: right; background: #8d0508; border: none; border-radius: 5px; box-shadow: 0 2px 0 #4b0000; font-size: 10px; font-family: Arial; text-transform: uppercase; color: #FFF; text-shadow: 0 1px 0 #4b0000;}
+.box form .sub:hover { background: #cc0a0e; }
+
+.message { position: absolute; top: 210px; left: 0; display: block; width: 308px; margin: 0 21px; border-radius: 3px; font-family: Arial; font-size: 12px; line-height: 25px; text-align: center; font-weight: bold; }
+.error { border: 1px solid #8d0508; background: #e7afb0; color: #8d0508; }
+.done { border: 1px solid #096b04; background: #afe7b3; color: #096b04; }
+
+#footer { background-color: #000; }
+#footer p { display: block; width: 938px; height:48px; margin: 0 auto; padding: 0 0 0 32px; font-family: Arial; font-size: 10px; line-height: 75px; color: #FFF; background: url('../images/lnd/logo_footer.png') 0 10px no-repeat; }
+#footer p a { font-family: Arial; color: #FFF; text-decoration: none; }
+#footer p a:hover { color: #999; }
+#footer p span.credits { font-family: Arial; float: right; }

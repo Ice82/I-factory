@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^admin$ tool.php [L,QSA]
+
+#PAGINE
+RewriteRule ^nuovo/home.html$ index.php [L]
+RewriteRule ^nuovo/clienti.html$ cli.php [L]
+RewriteRule ^nuovo/profilo.html$ prf.php [L]
+RewriteRule ^nuovo/identity.html$ int.php [L]
+RewriteRule ^nuovo/contatti.html$ cnt.php [L]
